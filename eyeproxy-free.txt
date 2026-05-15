@@ -1,0 +1,108 @@
+{
+  "remarks": "👁️ EYE PROXY | NEVER FREE SUB",
+  "servers": [
+    {
+      "remarks": "🇪🇪 Estonia, Tallinn",
+      "address": "ee.c2horizon.app",
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "id": "24f6263c-a029-470d-8e54-36c6d4a01e27",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "ee.c2horizon.app",
+          "publicKey": "IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0",
+          "shortId": "122218f4c1f172e4",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "remarks": "🇫🇷 France, Paris",
+      "address": "kz.sbrf-cdn342.ru",
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "id": "85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sub.sbrf-cdn342.ru",
+          "fingerprint": "chrome",
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "remarks": "🇬🇪 Georgia, Tbilisi",
+      "address": "georg.sbrf-cdn342.ru",
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "id": "7bd29cac-f692-48a3-88d1-505f7e55f0d0",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "fingerprint": "chrome",
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "remarks": "🇩🇪 Germany, Frankfurt",
+      "address": "de.sbrf-cdn342.ru",
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "id": "85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa",
+        "flow": "xtls-rprx-vision",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "sub.sbrf-cdn342.ru",
+          "fingerprint": "chrome",
+          "allowInsecure": false
+        }
+      }
+    },
+    {
+      "remarks": "🇰🇿 Kazakhstan, Almaty",
+      "address": "78.140.246.103",
+      "port": 7443,
+      "protocol": "vless",
+      "settings": {
+        "id": "c4d69096-4026-4da5-9485-20a3da91cb14",
+        "encryption": "none"
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.microsoft.com",
+          "publicKey": "UnlR_TTweEWQK9iL1Tbp3FP9DylNXbF4oOHORN1X6mI",
+          "shortId": "761a08c6",
+          "fingerprint": "firefox"
+        },
+        "grpcSettings": {
+          "serviceName": "grpc"
+        }
+      }
+    }
+  ]
+}
